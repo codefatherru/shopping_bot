@@ -84,7 +84,7 @@ async def echo_gif(message: types.Message):
 async def download_photo(message: types.Message, bot: Bot):
     await bot.download(
         message.photo[-1],
-        destination=f"/tmp/{message.photo[-1].file_id}.jpg"
+        destination=f"./tmp/{message.photo[-1].file_id}.jpg"
     )
 
 
@@ -92,7 +92,7 @@ async def download_photo(message: types.Message, bot: Bot):
 async def download_sticker(message: types.Message, bot: Bot):
     await bot.download(
         message.sticker,
-        destination=f"/tmp/{message.sticker.file_id}.webp"
+        destination=f"./tmp/{message.sticker.file_id}.webp"
     )
 
 
