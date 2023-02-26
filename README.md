@@ -1,3 +1,3 @@
-# Работа с сообщениями
+# Кнопки
 
-В этом каталоге исходники к главе https://mastergroosha.github.io/aiogram-3-guide/messages/
+В этом каталоге исходники к главе https://mastergroosha.github.io/aiogram-3-guide/buttons/
