@@ -12,8 +12,7 @@ async def main():
     bot = Bot(token=os.getenv('SIM_BOT_TOKEN'))
     dp = Dispatcher()
     logging.basicConfig(level=logging.INFO)
-    dp.include_router(questions.router)
-    dp.include_router(different_types.router)
+
     dp.include_router(group_games.router)
     dp.include_router(checkin.router)
     dp.include_router(usernames.router)
